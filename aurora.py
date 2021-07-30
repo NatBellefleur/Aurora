@@ -5,6 +5,8 @@ from matplotlib import pyplot as plt
 from scipy.integrate import simps
 from scipy.spatial.transform import Rotation
 
+#Testing push to github
+
 def shadowed(sat_ECI: np.ndarray, sun_vec: np.ndarray, R_Earth = 6378, R_Sun = 149598023)-> bool:
 
     mag_sat_ECI = np.linalg.norm(sat_ECI, axis=-1)      
